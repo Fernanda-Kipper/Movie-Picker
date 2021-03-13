@@ -1,12 +1,8 @@
 import {  useLocation } from 'react-router-dom';
 
-function useQuery() {
-    return new URLSearchParams(useLocation().search);
-  }
-
 export default function MyFeed(){
-    let queryParams = useQuery()
-    let code = queryParams.get('code')
+    let completeQueryParam = useLocation().search
+    let code = completeQueryParam.split('=')[1]
 
     return(
         <h1 style={{color: '#000'}}>{code}</h1>
