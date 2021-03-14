@@ -6,8 +6,8 @@ import {
     Route
 } from "react-router-dom";
 
-import Home from './Home'
-import MoviesListPage from './MoviesListPage'
+import Home from './pages/Home'
+import MoviesListPage from './pages/MoviesListPage'
 
 export default function AppRoutes(){
     return(

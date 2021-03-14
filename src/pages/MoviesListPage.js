@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 
-import './styles/pages/MoviesList.css'
+import '../styles/pages/MoviesList.css'
 
 export default function MoviesListPage(){
     const { id } = useParams()

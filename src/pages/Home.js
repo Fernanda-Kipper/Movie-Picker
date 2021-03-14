@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import axios from 'axios'
-import './styles/pages/Home.css'
 
-import ModalResults from './components/ModalResults'
+import '../styles/pages/Home.css'
+
+import ModalResults from '../components/ModalResults'
 
 export default function Home(){
     const [movieName, setMovieName] = useState("")
@@ -15,6 +16,9 @@ export default function Home(){
 
     function handleSubmit(event){
         event.preventDefault()
+        if(movieName === ""){
+            return alert('Preencha o campo corretamente')
+        }
         axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query=${movieName}&language=pt-BR`)
         .then(res=> {
             setMoviesList(res.data.results) 
