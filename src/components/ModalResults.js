@@ -15,8 +15,8 @@ export default function ModalResults({results, handleModal}){
                                 return(
                                     <li key={result.id}>
                                         <div className="movie-content">
-                                        <img src={`https://www.themoviedb.org/t/p/w1280/${result.poster_path}`} alt={`Poster do filme ${result.title}`}/>
-                                        <p>{result.title}</p>
+                                            <img src={`https://www.themoviedb.org/t/p/w1280/${result.poster_path}`} alt={`Poster do filme ${result.title}`}/>
+                                            <p>{result.title}</p>
                                         </div>
                                         <a href={`/recommended/${result.id}`}>Mostrar recomendações</a>
                                     </li>
