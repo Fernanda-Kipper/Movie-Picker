@@ -14,9 +14,9 @@ O Projeto consiste em uma aplicação web na qual o usuário pode buscar recomen
 <h3 align="center"><a href="https://my-movie-picker.vercel.app/">💻 Visite clicando aqui</a></h3>
 
 <p align="center">
-  <img src="./public/landing.png" width="600px">
-  <img src="./public/results.png" width="400px">
-  <img src="./public/recommended.png" width="400px">
+   <img src="./public/landing.png" width="600px">
+   <img src="./public/results.png" width="500px">
+   <img src="./public/recommended.png" width="500px">
 </p>
 
 <h2 id="tech" >Tecnologias</h2>
