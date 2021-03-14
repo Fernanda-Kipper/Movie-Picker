@@ -1,6 +1,30 @@
-* {
+:root{
+  font-size: 16px;
+  --mainColor: #F50057;
+  --textColor: rgb(78, 72, 74);
+}
+
+*{
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 0;
   box-sizing: border-box;
+}
+
+body, #root{
+  height: 100vh;
+  width: 100vw;
+  background: #f6f6f6;
+}
+
+@media(min-width: 900px){
+  :root{
+    font-size: 18px;
+  }
+}
+
+@media(min-width: 1500px){
+  :root{
+    font-size: 20px;
+  }
 }

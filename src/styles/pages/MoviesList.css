@@ -1,0 +1,115 @@
+.list-container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+}
+
+.list-container header{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+
+.list-container header a{
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--mainColor);
+    cursor: pointer;
+
+    position: absolute;
+    top: .5rem;
+    left: 1rem;
+}
+
+.list-container header h1{
+    color: var(--textColor);
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.list-container header img{
+    height: 5rem;
+}
+
+.list-container ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+    list-style: none;
+}
+
+.list-container ul li{
+    height: 200px;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 5px 5px 20px;
+
+    background: #fff;
+
+    overflow: hidden;
+}
+
+.list-container ul li img{
+    height: 200px;
+}
+
+.list-container ul li .movie-informations{
+    padding: 10px;
+    margin: auto;
+
+    text-align: center;
+}
+
+.list-container ul li .movie-informations h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--textColor);
+
+    margin: auto;
+}
+
+.list-container ul li .movie-informations p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    display: none;
+}
+
+@media(min-width: 700px){
+
+    .list-container ul li{
+        width: 70%;
+    }
+
+    .list-container ul li .movie-informations p{
+        display: block;
+    }
+
+    .list-container ul li .movie-informations h2{
+        margin: 1rem;
+    }
+    
+}
+
+@media(min-width: 1200px){
+    .list-container header{
+        flex-direction: row;
+    }
+}
+
+
