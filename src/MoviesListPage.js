@@ -9,7 +9,7 @@ export default function MoviesListPage(){
     const [movies, setMovies] = useState([])
 
     useEffect(()=>{
-        axios.get(`https://api.themoviedb.org/3/movie/${id}/recommendations?api_key=${process.env.API_KEY}&language=pt-BR&page=1`)
+        axios.get(`https://api.themoviedb.org/3/movie/${id}/recommendations?api_key=${process.env.REACT_APP_API_KEY}&language=pt-BR&page=1`)
         .then(res => setMovies(res.data.results))
     },[id])
 
