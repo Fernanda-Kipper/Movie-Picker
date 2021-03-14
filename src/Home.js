@@ -15,7 +15,7 @@ export default function Home(){
 
     function handleSubmit(event){
         event.preventDefault()
-        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.API_KEY}&query=${movieName}&language=pt-BR`)
+        axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query=${movieName}&language=pt-BR`)
         .then(res=> {
             setMoviesList(res.data.results) 
         })
