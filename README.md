@@ -16,7 +16,7 @@ O Projeto consiste em uma aplicação web na qual o usuário pode buscar recomen
 <p align="center">
   <img src="./public/landing.png" width="600px">
   <img src="./public/results.png" width="400px">
-  <img src="./public/recomendation.png" width="400px">
+  <img src="./public/recommended.png" width="400px">
 </p>
 
 <h2 id="tech" >Tecnologias</h2>
