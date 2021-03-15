@@ -2,7 +2,7 @@
 
 <p align="center">
  <a href="#project">Projeto</a> •
- <a href="#tech">Tecnologias</a> • 
+ <a href="#tech">Tecnologias</a> •
  <a href="#clone">Clone</a> • 
  <a href="#license">License</a>
 </p>
@@ -10,6 +10,8 @@
 <h2 id="project" >Movie Picker</h2>
 
 O Projeto consiste em uma aplicação web na qual o usuário pode buscar recomendações de filmes baseado em filmes que ele já assistiu e gostou. Primeiro o usuário fornece o nome de um filme e escolhe dentre os resultados qual é o que tinha em mente e baseado nessa escolha algumas opções de filmes serão recomendadas para ele!
+
+Para tal foi feita uma integração com a [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction).
 
 <h3 align="center"><a href="https://my-movie-picker.vercel.app/">💻 Visite clicando aqui</a></h3>
 
