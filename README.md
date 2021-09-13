@@ -1,58 +1,73 @@
-<h1 align="center"><img align="center" src="./public/popcornTime.svg" width="400"></h1>
+<h1 align="center"><img align="center" src="./public/popcornTime.svg" width="300"></h1>
 
 <p align="center">
- <a href="#project">Projeto</a> •
- <a href="#tech">Tecnologias</a> •
+ <a href="#tech">Technolgies</a> • 
  <a href="#clone">Clone</a> • 
- <a href="#license">License</a>
+ <a href="#contribute">Contribute</a> •
+ <a href="#license">License</a>•
+ <a href="https://my-movie-picker.vercel.app/">Visit site</a>
 </p>
 
-<h2 id="project" >Movie Picker</h2>
-
-O Projeto consiste em uma aplicação web na qual o usuário pode buscar recomendações de filmes baseado em filmes que ele já assistiu e gostou. Primeiro o usuário fornece o nome de um filme e escolhe dentre os resultados qual é o que tinha em mente e baseado nessa escolha algumas opções de filmes serão recomendadas para ele!
-
-Para tal foi feita uma integração com a [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction).
-
-<h3 align="center"><a href="https://my-movie-picker.vercel.app/">💻 Visite clicando aqui</a></h3>
-
+<p align="center">
+<b>Movie picker is an application in which the user can search movie recommendations based on movies he has watched and liked.</b>
+</p>
 <p align="center">
    <img src="./public/landing.png" width="600px">
-   <img src="./public/results.png" width="500px">
-   <img src="./public/recommended.png" width="500px">
+   <img src="./public/results.png" width="400px">
+   <img src="./public/recommended.png" width="400px">
 </p>
 
-<h2 id="tech" >Tecnologias</h2>
+
+<h2 id="tech">Technologies</h2>
 
 - React JS
 
 - Axios
 
-- The Movie Database API
+- [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction)
 
 - JavaScript
 
 - HTML e CSS
 
-<h2 id="clone" >Clone</h2>
+<h2 id="clone">Clone</h2>
 
-Para rodar o Movie Picker localmente em modo desenvolvimento você deve:
+<h4> Prerequisites</h4>
+
+- Node >= 10.16 e npm >= 5.6 
+- Package manager - NPM or YARN
+
+<h4>Starting</h4>
 
 ```
-git clone https://github.com/Fernanda-Kipper/Movie-Picker.gi
-cd project_name
+git clone https://github.com/Fernanda-Kipper/Movie-Picker.git
 npm install
 npm run-script dev
-# Acesse o localhost
-http://localhost:3000
+OPEN http://localhost:3000
 ```
 
-No local de npm você pode utilizar o package manager de sua preferência
+### Atention 🛑
 
-### Atenção ‼
+It is not recommended to store your API access keys on the client side, in this project the react app environment variables were used strictly for study and practice, but in production mode this practice is not recommended
 
-Não é recomendado armazenar suas chaves de acesso a API no lado do cliente, nesse projeto fora utilizado as variáveis de ambiente react app estritamente para estudo e prática, mas em modo de produção esssa prática não é recomendada 
+<h2 id="contribute">Contribute 🚀</h2>
 
-<h2 id="license">Licença</h2>
+If you want to contribute, clone this repo, create your work branch and get your hands dirty!
 
-Esse projeto está sob a licença [MIT](LICENSE)
+```bash
+git clone https://github.com/Fernanda-Kipper/LiveChat.git
+git checkout -b feature/NAME
+```
+
+ At the end, open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+
+[How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+
+
+<h2 id="license">License 📃 </h2>
+
+This project is under [MIT](LICENSE) license
+
 
